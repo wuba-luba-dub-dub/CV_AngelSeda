@@ -1,0 +1,313 @@
+body{
+    background-color: #fff;
+}
+.conteinernavbar{
+    position: relative;
+    top: 30px;
+    width: 95%;
+    height: 34em;
+    background-image: url("../recursos/wall2.jpg");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.navbar{
+    font-family: "Anton";
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.navbar a{
+    margin: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover{
+    transform: scale(1.5);
+}
+
+.perfil{
+    font-family: "Anton";
+    width: 30%;
+    height: 40em;
+    margin: 0 auto;
+    margin-top: 4em;
+    text-align: center;
+    color: white;
+
+}
+
+.perfil img{
+    height: 15em;
+    width: 15em;
+    border-radius: 100%;
+    border: 4px solid;
+    border-color: white;
+}
+
+.redessociales{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+
+}
+
+.redessociales a{
+    margin: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.redessociales a:hover{
+    transform: scale(1.5);
+}
+
+.about{
+    width: 95%;
+    height: 30em;
+    border: 8px solid;
+    border-color: rgba(0,0,0,.3);
+    margin: 0 auto;
+}
+.aboutleft{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.aboutright{
+    height: 100%;
+    width:50%;
+    float: left;
+}
+
+.aboutrotate h1{
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
+    color: rgba(0,0,0,.3);
+    transform: rotate(-90deg) translateX(-250%);
+}
+
+.aboutname{
+    font-family: "Anton";
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+}
+.aboutocupacion{
+    font-family: "Anton";
+    font-size: .8em;
+    color: rgba(0,0,0,.5);
+}
+.aboutdescripcion{
+    font-family: "Anton";
+    font-size: 1em;
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+}
+.aboutimpact{
+    font-family: "Anton";
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+}
+.aboutdesc{
+    width: 100%;
+    height: 450px;
+}
+.aboutinfo{
+    height: 450px;
+}
+.imgprofile{
+    text-align: center;
+    height: 180px;
+   
+}
+
+.imgprofile img{
+    margin-top: 9px;
+    border-radius: 10%;
+    height: 10em;
+    width: 10em;
+}
+.aboutinfoper{
+    height: 270px;
+}
+
+.aboutinfoper ul{
+    font-size: 20px;
+    list-style-type: none;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 5%;
+}
+.aboutinfoper li{
+    padding: 5px;
+}
+
+
+.skills{
+    width: 95%;
+    height: 30em;
+    border: 8px solid;
+    border-color: rgba(0,0,0,.3);
+    margin: 0 auto;
+}
+
+.skills p{
+    margin-top: 50px;
+    margin-left: 120px;
+    font-family: "Anton";
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+}
+.skillsprof img{
+    margin-left: 20px;
+    margin-left: 50px;
+    height: 150%;
+}
+.radius img{
+    height: 100px;;
+}
+
+
+.idiomas ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+}
+.idiomas li{
+    padding: 23px;
+    font-family: "Anton";
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+}
+
+
+.services{
+    width: 95%;
+    height: 30em;
+    
+    border: 8px solid;
+    border-color: rgba(0,0,0,.3);
+    margin: 0 auto;
+}
+.skillsleft{
+    height: 100%;
+    width: 80%;
+    float: left;
+
+}
+
+.skillsright{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.skillsrotate h1{
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
+    color: rgba(0,0,0,.3);
+    transform: rotate(-90deg) translateX(-90%);
+}
+
+.skillsprof{
+    
+    height: 200px;
+    width: 90%;
+    position: relative;
+}
+
+.servicesleft{
+    
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.servicesright{
+    
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.servicesright h2{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 900;
+    color: rgba(0,0,0,.3);
+}
+
+.servicesrotate h1{
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
+    color: rgba(0,0,0,.3);
+    transform: rotate(-90deg) translateX(-110%);
+}
+
+.servicesright ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+
+
+.servicesright img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border-color: rgba(0,0,0,.5) !important;
+    border: 5px solid;
+    margin-right: 45px;
+    margin-left: 10px;
+
+}
+
+.servicesright a{
+    text-decoration: none;
+}
+.servicesright h4{
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 150px;
+    margin-right: 45px;
+    margin-left: 10px;
+    color: rgba(0,0,0,.5);
+    transition: all 0.3s ease-in-out;
+}
+.servicesright h4:hover{
+    transform: scale(1.1)
+}
+
+.hab{
+    margin-left: 100px !important;
+}
