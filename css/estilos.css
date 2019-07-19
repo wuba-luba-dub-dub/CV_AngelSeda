@@ -1,0 +1,113 @@
+body{
+    background-color: #fff;
+}
+.conteinernavbar{
+    position: relative;
+    top: 30px;
+    width: 95%;
+    height: 34em;
+    background-image: url("../recursos/wall2.jpg");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.navbar{
+    font-family: "Anton";
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.navbar a{
+    margin: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover{
+    transform: scale(1.5);
+}
+
+.perfil{
+    font-family: "Anton";
+    width: 30%;
+    height: 40em;
+    margin: 0 auto;
+    margin-top: 4em;
+    text-align: center;
+    color: white;
+
+}
+
+.perfil img{
+    height: 15em;
+    width: 15em;
+    border-radius: 100%;
+    border: 4px solid;
+    border-color: white;
+}
+
+.redessociales{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+
+}
+
+.redessociales a{
+    margin: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.redessociales a:hover{
+    transform: scale(1.5);
+}
+
+.about{
+    width: 95%;
+    height: 30em;
+    background-color: coral;
+    border: 8px solid;
+    border-color: rgba(0,0,0,.3);
+    margin: 0 auto;
+}
+.aboutleft{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: blue;
+}
+
+.aboutright{
+    height: 100%;
+    width:50%;
+    float: left;
+    background-color: blue;
+}
+
+.aboutrotate h1{
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
+    color: rgba(0,0,0,.3);
+    transform: rotate(-90deg) translateX(-150%);
+}
+
