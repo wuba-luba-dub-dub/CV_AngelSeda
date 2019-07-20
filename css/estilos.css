@@ -85,7 +85,7 @@ body{
     width: 95%;
     height: 30em;
     border: 8px solid;
-    border-color: rgba(0,0,0,.3);
+    border-color: rgba(0,0,0,.1);
     margin: 0 auto;
 }
 .aboutleft{
@@ -104,7 +104,7 @@ body{
     text-align: center;
     font-size: 5em;
     font-weight: 900;
-    color: rgba(0,0,0,.3);
+    color:#515A5A;;
     transform: rotate(-90deg) translateX(-250%);
 }
 
@@ -123,13 +123,13 @@ body{
     font-family: "Anton";
     font-size: 1em;
     font-weight: bold;
-    color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.8);
 }
 .aboutimpact{
     font-family: "Anton";
     font-size: 1.4em;
     font-weight: bold;
-    color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.8    );
 }
 .aboutdesc{
     width: 100%;
@@ -157,8 +157,9 @@ body{
 .aboutinfoper ul{
     font-size: 20px;
     list-style-type: none;
-    background-color: rgba(0,0,0,.3);
-    border-radius: 5%;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 20px;
+    color:#515A5A;
 }
 .aboutinfoper li{
     padding: 5px;
@@ -169,7 +170,7 @@ body{
     width: 95%;
     height: 30em;
     border: 8px solid;
-    border-color: rgba(0,0,0,.3);
+    border-color: rgba(0,0,0,.1);
     margin: 0 auto;
 }
 
@@ -212,7 +213,7 @@ body{
     height: 30em;
     
     border: 8px solid;
-    border-color: rgba(0,0,0,.3);
+    border-color: rgba(0,0,0,.1);
     margin: 0 auto;
 }
 .skillsleft{
@@ -232,7 +233,7 @@ body{
     text-align: center;
     font-size: 5em;
     font-weight: 900;
-    color: rgba(0,0,0,.3);
+    color:#515A5A;;
     transform: rotate(-90deg) translateX(-90%);
 }
 
@@ -266,12 +267,13 @@ body{
     text-align: center;
     font-size: 5em;
     font-weight: 900;
-    color: rgba(0,0,0,.3);
+    color:#515A5A;
     transform: rotate(-90deg) translateX(-110%);
 }
 
 .servicesright ul{
     list-style-type: none;
+    margin-left: 60px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -293,12 +295,13 @@ body{
 
 .servicesright a{
     text-decoration: none;
+    height: 100px;
 }
 .servicesright h4{
     text-align: center;
     text-decoration: none;
     width: 150px;
-    height: 150px;
+    height: 100px;
     margin-right: 45px;
     margin-left: 10px;
     color: rgba(0,0,0,.5);
@@ -310,4 +313,16 @@ body{
 
 .hab{
     margin-left: 100px !important;
+}
+
+.boton{
+    text-align: center;
+}
+.btn-dark{
+    font-family: Anton;
+    transition: all 0.3s ease-in-out;
+
+}
+.btn-dark:hover{
+    transform: scale(1.5)
 }
